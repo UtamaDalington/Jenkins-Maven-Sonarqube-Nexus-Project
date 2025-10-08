@@ -36,11 +36,11 @@
     - Launch Instance
 
 4) Jenkins/Maven
-    - Create an Amazon Linux 2 VM instance and call it "Jenkins-Maven"
-    - Instance type: `t2.medium`
+    - Create an Ubuntu 24.04 VM instance and call it "Jenkins-Maven"
+    - Instance type: c7i-flex.large (2 vCPU and 4 GiB Memory)
     - Security Group (Open): 8080 and 22 to 0.0.0.0/0 or Your-IP
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/maven-sonarqube-nexus-jenkins-install/jenkins-install.sh
+    - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/install-jenkins1.sh
     - Launch Instance
 
 ## Configure Nexus Repository
