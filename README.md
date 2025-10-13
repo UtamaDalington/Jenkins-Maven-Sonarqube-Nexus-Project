@@ -1,4 +1,4 @@
-# Continuous Development Project
+# Continuous Development Environment
 ![DevelopmentEnvironemntSetupProject!](https://lucid.app/publicSegments/view/db5a3c68-addf-4aa5-a15f-464c7bc00d66/image.png)
 
 ###### Project ToolBox 🧰
