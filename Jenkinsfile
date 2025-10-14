@@ -29,9 +29,9 @@ pipeline {
     stage('SonarQube Inspection') {
         steps {
             sh  """mvn sonar:sonar \
-                    -Dsonar.projectKey=ecommerce-java-webapp \
-                    -Dsonar.host.url=http://75.101.251.162:9000 \
-                    -Dsonar.login=e5f2bd65a07c94dbf113b610d258b964a7d7e7b4"""
+                    -Dsonar.projectKey=Jenkins-Maven-Sonarqube-Nexus-Project \
+                    -Dsonar.host.url=http://34.229.169.166:9000 \
+                    -Dsonar.login=1ab7537e6fe3a6386444f1b3c2c536ca90148b92"""
         }
     } 
     stage("Upload Artifact To Nexus"){
