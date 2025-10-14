@@ -8,6 +8,7 @@
 - [SonarQube](https://docs.sonarqube.org/) SonarQube Catches bugs and vulnerabilities in your app, with thousands of automated Static Code Analysis rules.
 - [Nexus](https://www.sonatype.com/) Nexus Manage Binaries and build artifacts across your software supply chain
 - [EC2](https://aws.amazon.com/ec2/) EC2 allows users to rent virtual computers (EC2) to run their own workloads and applications.
+- [Jenkins](https://www.jenkins.io/) The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
 
 ## Configure Environments
 1) Create a GitHub Repository
