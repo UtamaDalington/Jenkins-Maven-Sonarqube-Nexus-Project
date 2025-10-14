@@ -43,7 +43,36 @@
     - User data (Copy the following user data): https://github.com/UtamaDalington/Maven-SonarQube-Nexus-Jenkins-installations/blob/main/install-jenkins1.sh
     - Launch Instance
 
-## Configure Nexus Repository
-Series of tutorial code snippets for use
-#Maven publish tutorial steps
-#Publishing artifact to Nexus snapshot and release repo using maven.
+### Project Preparation (Jenkins/Maven)
+- Verify the Maven installation and version
+    ```
+    mvn -v
+    ```
+
+- Verify the Java installation and version
+    ```
+    java -version
+    ```
+
+- This Project requires Java 11 installed, so install and switch to Java 11, if otherwise.
+    ```
+    sudo apt-get install -y openjdk-11-jdk
+    sudo update-alternatives --config java
+    ```
+            
+- Create the `.m2` directory in the home directory of your current user that will orchestrate the build (jenkins)
+    ```
+    sudo mkdir .m2/
+    ```
+
+- Create the Settings file inside of the `~/.m2` directory
+    ```
+    cd ~/.m2/
+    sudo wget (copy and paste the raw link of the `settings.xml` file from GitHub Repository to download the file and it's content into `.m2`)
+    ```
+
+- Ensure to change ownership of both `.m2` and `settings.xml` from root to jenkins
+    ```
+    sudo chown jenkins:jenkins .m2/
+    sudo chown jenkins:jenkins settings.xml
+    ```
