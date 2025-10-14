@@ -76,3 +76,9 @@
     sudo chown jenkins:jenkins .m2/
     sudo chown jenkins:jenkins settings.xml
     ```
+
+![DevelopmentEnvironemntSetupProject!](https://miro.medium.com/v2/resize:fit:700/1*8nvbQTV6GzVTaVbUr70JtQ.png)
+![DevelopmentEnvironemntSetupProject!](https://miro.medium.com/v2/resize:fit:1926/1*vAlitB2lQ3h4nJJjKRv4hg.png)
+![DevelopmentEnvironemntSetupProject!](https://miro.medium.com/v2/resize:fit:1921/1*IzGJvX5rq-sXOGyTsHnmNg.png)
+![DevelopmentEnvironemntSetupProject!](https://miro.medium.com/v2/resize:fit:700/1*s00v7obf8Bv8CVGtkKSEkQ.png)
+![DevelopmentEnvironemntSetupProject!](https://miro.medium.com/v2/resize:fit:700/1*iATR1AtmlN0_O-D6lE_PrQ.png)    
