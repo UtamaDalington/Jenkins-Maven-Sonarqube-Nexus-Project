@@ -29,8 +29,8 @@ under the License.
   <servers>
     <server>
       <id>nexusdeploymentrepo</id>
-      <username>admin</username>  <!-- Provide Your Nexus Repository Server Username and Password -->
-      <password>admin</password>
+      <username>USER_NAME</username>  <!-- Provide Your Nexus Repository Server Username and Password -->
+      <password>PASS_WORD</password>
     </server>
 
   </servers>
@@ -59,8 +59,8 @@ under the License.
      <repositories>
        <repository>
          <id>nexus-snapshot-repo</id>
-         <name>your custom repo</name>
-         <url>http://3.80.70.11:8081/repository/maven-snapshots/</url>
+         <name>maven-snapshots</name>
+         <url>http://ARTIFACTORY_IP_ADDRESS:PORT_NUMBER/repository/SNAPSHOT_REPOSITORY_NAME/</url>
        </repository>
 	   
      </repositories>
@@ -70,8 +70,8 @@ under the License.
      <repositories>
        <repository>
          <id>nexus-release-repo</id>
-         <name>your custom repo</name>
-         <url>http://3.80.70.11:8081/repository/maven-releases/</url>
+         <name>maven-releases</name>
+         <url>http://ARTIFACTORY_IP_ADDRESS:PORT_NUMBER/repository/RELEASE_REPOSITORY_NAME/</url>
        </repository>
      </repositories>
    </profile>
@@ -83,7 +83,7 @@ under the License.
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <sonar.host.url>http://54.175.153.142:9000</sonar.host.url>
+        <sonar.host.url>http://SonarQube:PORT_NUMBER</sonar.host.url>
       </properties>
     </profile>
     <!--End SonarQube/Sonar Profile-->
