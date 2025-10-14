@@ -68,7 +68,7 @@
 - Create the Settings file inside of the `~/.m2` directory
     ```
     cd ~/.m2/
-    sudo wget (copy and paste the raw link of the `settings.xml` file from GitHub Repository to download the file and it's content into `.m2`)
+    sudo wget (copy and paste the [raw file link](https://raw.githubusercontent.com/UtamaDalington/Jenkins-Maven-Sonarqube-Nexus-Project/refs/heads/main/settings.xml) of the `settings.xml` file from GitHub Repository to download the file and it's content into `.m2`)
     ```
 
 - Ensure to change ownership of both `.m2` and `settings.xml` from root to jenkins
